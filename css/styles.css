@@ -1,0 +1,353 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/*---principal ------------------------------------*/
+
+.menu-navegacion{
+    background-color: #454E57;
+    width: 100%;
+    height: 66px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 30px;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    color: aliceblue;
+    list-style-type: none;
+}
+.nav a, a:visited {
+    text-decoration: none;
+    color: white;
+}
+.nav a:hover{
+    color: #ffffff6c;
+}
+.img-logo{
+    margin-left: 15px;
+}
+
+.Logo{
+    width: 6%;
+    float: left;
+}
+.contenedor-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto-imagen{
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 60px;
+    margin-bottom: 15px; 
+}
+.Subtitulo{
+    font-weight: 300;
+    font-size: 25px;
+}
+.imagen-principal{
+    border-radius: 10px;
+    width: 100%;
+    height: 90%;
+    border-radius: 0%;
+}
+.line-service{
+    width: 40%;
+    max-width: 1200px;
+    margin: 30px auto;
+    height: 4px;
+    background: #454E57;
+    margin-bottom: 30px;
+}
+.informacion-principal{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.contender-div{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.servicios{
+    margin: 30px;
+
+}
+.div-G{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    margin: 30px;
+    border-radius: 5%;
+    padding: 15px;
+}
+.titulo-g{
+    font-size: 20px;
+    color: #911901;
+}
+.reparación{
+    background-color: #6F6969;
+
+}
+
+.fabricación{
+    background-color: #6F6969;
+}
+
+.mecanizados-cnc{
+    background-color: #6F6969;
+}
+.texto-s{
+    color: white;
+    font-size:20px;
+    padding: 25px;
+}
+
+/* ---Nosotros------------------------------------------ */
+.main-nosotros{
+    background-color: #F4E0B9;
+    width: 100%;
+}
+.line-nosotros{
+    width: 40%;
+    max-width: 1200px;
+    margin: 30px auto;
+    height: 4px;
+    background: #454E57;
+    margin-bottom: 30px;
+}
+.div-quienes-somos{
+    font-size: 20px;
+    text-align: center;
+}
+.conteiner-nosotros{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-nosotros{
+    width: 700px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 30px;
+    background-color: #EAC681;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto-nosotros{
+    text-align: center;
+    margin: 30px;
+    
+}
+.img-padre{
+    width: 300px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+.line-padre{
+    width: 40%;
+    max-width: 1200px;
+    margin: 30px auto;
+    height: 4px;
+    background: #454E57;
+    margin-bottom: 30px;
+}
+.img-hijo{
+    width: 300px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+.line-hijo{
+    width: 40%;
+    max-width: 1200px;
+    margin: 30px auto;
+    height: 4px;
+    background: #454E57;
+    margin-bottom: 30px;
+}
+
+
+
+/* ---Trabajos------------------------------------------ */
+
+.main-trabajo{
+    background-color: #EAC681;
+}
+
+.line-trabajo{
+    width: 40%;
+    max-width: 1200px;
+    margin: 30px auto;
+    height: 4px;
+    background: #454E57;
+    margin-bottom: 30px;
+}
+.titulo-trabajo{
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+}
+
+
+.foto-t{
+    width: 300px;
+    border-radius: 5px;
+    justify-content: space-around;
+}
+.conteiner-general{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+/*---Maquinas------------------------------------------- */
+.main-maquinas{
+    background-color:#EAC681 ;
+}
+.line-maquinas{
+    width: 40%;
+    max-width: 1200px;
+    margin: 30px auto;
+    height: 4px;
+    background: #454E57;
+    margin-bottom: 30px;
+}
+.titulo-maquinas{
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+}
+.maquinas{
+    width: 300px;
+    border-radius: 5px;
+    justify-content: space-around;
+}
+
+
+
+/*---Ubicacion------------------------------------------ */
+.ubicacion{
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+}
+.cartel-ubicacion{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-texto{
+    width: 300px;
+    height: 130px;
+    background-color: #454E57;
+    border-radius: 5px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.texto-ubicacion{
+    text-align: center;
+    margin: 10px;
+    color: white;
+}
+.line-ubicacion{
+    width: 40%;
+    max-width: 1200px;
+    margin: 30px auto;
+    height: 4px;
+    background: #454E57;
+    margin-bottom: 30px;
+}
+.google-maps{
+    text-align: center;
+    font-size: 25px;
+}
+.contact-map{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+/* ---------- footer -----------------------------------------------*/
+
+footer{
+    background: #454E57;
+    padding-bottom: 0.1px;   
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-right: 400px;
+}
+.contact-us{
+    width: 40%;
+    color: white;
+}
+.info{
+    font-weight: 500;
+    font-size: 35px;
+    margin-left: 370px;
+}
+.info+p{
+    font-weight: 500;
+    margin-left: 370px;
+}
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;   
+}
+
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+}
+
+.social-media-icon:hover{
+    background: white;
+    color:#454E57;
+}
+
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: white;
+    margin-bottom: 30px;
+}
+
+
+
