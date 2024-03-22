@@ -21,6 +21,9 @@
     color: aliceblue;
     list-style-type: none;
 }
+.nav > li{
+    margin-top: 15px;
+}
 .nav a, a:visited {
     text-decoration: none;
     color: white;
@@ -122,7 +125,7 @@
 .line-nosotros{
     width: 40%;
     max-width: 1200px;
-    margin: 30px auto;
+    margin: auto;
     height: 4px;
     background: #454E57;
     margin-bottom: 30px;
@@ -192,7 +195,7 @@
 .line-trabajo{
     width: 40%;
     max-width: 1200px;
-    margin: 30px auto;
+    margin: auto;
     height: 4px;
     background: #454E57;
     margin-bottom: 30px;
@@ -223,7 +226,7 @@
 .line-maquinas{
     width: 40%;
     max-width: 1200px;
-    margin: 30px auto;
+    margin:  auto;
     height: 4px;
     background: #454E57;
     margin-bottom: 30px;
