@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 /*---principal ------------------------------------*/
-
+body{
+    background-color: #85838262;
+}
 .menu-navegacion{
     background-color: #454E57;
     width: 100%;
@@ -119,11 +121,12 @@
 
 /* ---Nosotros------------------------------------------ */
 .main-nosotros{
-    background-color: #F4E0B9;
+
     width: 100%;
+    margin-top: 40px;
 }
 .line-nosotros{
-    width: 40%;
+    width: 80%;
     max-width: 1200px;
     margin: auto;
     height: 4px;
@@ -145,7 +148,7 @@
     height: 200px;
     border-radius: 5px;
     margin: 30px;
-    background-color: #EAC681;
+    background-color: #36363542;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,28 +158,54 @@
     margin: 30px;
     
 }
+.section-padre{
+    display: flex;
+    margin:40px 0 0 50px;
+}
+
 .img-padre{
     width: 300px;
     margin-left: 40px;
-    border-radius: 5px;
+    border: 1px solid black;
+    border-radius: 8px;
+
 }
 
+.texto-padre {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    width: 30%;
+}   
+
 .line-padre{
-    width: 40%;
+    width: 80%;
     max-width: 1200px;
     margin: 30px auto;
     height: 4px;
     background: #454E57;
     margin-bottom: 30px;
 }
+.section-hijo{
+    display: flex;
+    margin: 60px 0 40px 85px;
+}
+
 .img-hijo{
     width: 300px;
     margin-left: 40px;
-    border-radius: 5px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.texto-hijo{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    width: 30%;
 }
 
 .line-hijo{
-    width: 40%;
+    width: 80%;
     max-width: 1200px;
     margin: 30px auto;
     height: 4px;
@@ -189,7 +218,7 @@
 /* ---Trabajos------------------------------------------ */
 
 .main-trabajo{
-    background-color: #EAC681;
+    margin-top: 40px;
 }
 
 .line-trabajo{
@@ -205,23 +234,30 @@
     font-size: 30px;
     margin: 30px;
 }
+.conteiner-general{
+    display: grid;
+    width: 100%;
+    grid-template-columns:repeat(3, 315px); 
+    grid-template-rows:repeat(2, 47%);
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    column-gap: 120px;
+    row-gap: 50px;
+    margin-bottom: 50px;
+}
 
 
 .foto-t{
     width: 300px;
     border-radius: 5px;
-    justify-content: space-around;
+    border: 1px solid black;
 }
-.conteiner-general{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 30px;
-}
+
 
 /*---Maquinas------------------------------------------- */
 .main-maquinas{
-    background-color:#EAC681 ;
+margin-top: 40px;
 }
 .line-maquinas{
     width: 40%;
@@ -236,10 +272,18 @@
     font-size: 30px;
     margin: 30px;
 }
+.conteiner-maquinas{
+display: grid;
+width: 100%;
+grid-template-columns:repeat(4, 315px) ;
+grid-template-rows: repeat(2, 47%);
+justify-content: center;
+justify-content: center;
+}
+
 .maquinas{
     width: 300px;
     border-radius: 5px;
-    justify-content: space-around;
 }
 
 
@@ -351,6 +395,10 @@ footer{
     background: white;
     margin-bottom: 30px;
 }
+
+
+/* Medias */
+
 
 
 
