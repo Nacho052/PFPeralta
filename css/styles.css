@@ -24,7 +24,7 @@ body{
     list-style-type: none;
 }
 .nav > li{
-    margin-top: 15px;
+    margin-top: 10px;
 }
 .nav a, a:visited {
     text-decoration: none;
@@ -403,6 +403,27 @@ footer{
 
 /* Medias */
 
+@media (max-width: 1024px){
+    .Logo{
+        width: 10%;
+    }
+    
+    .footer-content{
+        width: 100%;
+    }
 
+    .contact-us{
+        width: 0%;
+    }
+
+    .info{
+        font-size: 20px;
+    }
+
+    .social-media{
+        width: 50%;
+        margin: 0 40px 0 20px;
+    }
+}
 
 
