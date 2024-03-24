@@ -17,7 +17,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    font-size: 30px;
+    font-size: 180%;
     align-items: center;
     text-align:center;
     color: aliceblue;
@@ -236,7 +236,7 @@ body{
 .conteiner-general{
     display: grid;
     width: 100%;
-    grid-template-columns:repeat(3, 315px); 
+    grid-template-columns:repeat(3, 15%); 
     grid-template-rows:repeat(2, 47%);
     justify-content: center;
     align-content: center;
@@ -404,26 +404,152 @@ footer{
 /* Medias */
 
 @media (max-width: 1024px){
+
+    /* index */
     .Logo{
         width: 10%;
     }
+
+    .titulo{
+        font-size: 250%;
+    }
+    .Subtitulo{
+        font-size: 150%;
+    }
     
+    .informacion-principal{
+        font-size: 180%;
+    }
+
+    /* nosotros */
+
+    .div-quienes-somos{
+        font-size: 100%;
+    }
+
+    .line-padre{
+        margin-left: 7%;
+    }
+
+    .section-hijo{
+        width: 100%;
+    }
+    
+    .line-hijo{
+        width: 70%;
+        margin-left: 5%;
+    }
+
+    /* trabajos */
+
+    .titulo-trabajo{
+        font-size: 160%;
+    }
+
+    .foto-t{
+        width: 100%;
+    }
+
+    /* maquinas */
+
+    .titulo-maquinas{
+        font-size: 170%;
+    }
+
+    /* ubicacion */
+
+    .ubicacion{
+        font-size: 160%;
+    }
+
+    /* footer */
+
     .footer-content{
         width: 100%;
     }
 
     .contact-us{
-        width: 0%;
+        width: 50%;
     }
 
     .info{
-        font-size: 20px;
+        font-size: 25px;
+        margin-left: 15%;
+    }
+    .info +p{
+        margin-left: 77px;
     }
 
     .social-media{
         width: 50%;
-        margin: 0 40px 0 20px;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    /*index*/
+
+    .Logo{
+        width: 12%;
+        margin-top: 5px;
+    }
+
+    .nav{
+        font-size: 150%;
+    }
+
+    .nav > li{
+        margin-top: 13px;
+    }
+    
+    .titulo{
+        font-size: 200%;
+    }
+    .Subtitulo{
+        font-size: 150%;
+    }
+
+    /* nosotros */
+
+    .div-nosotros{
+        width: 70%;
+        height: 20%;
+    }
+    .img-padre{
+        width: 30%;
+        height: 40%;
+    }
+
+    .texto-padre{
+        width: 70%;
+        margin: 10%;
+    }
+
+    .img-hijo{
+        width: 30%;
+        height: 40%;
+    }
+
+    .texto-hijo{
+        width: 70%;
+        margin: 7%;
+    }
+
+    /* footer */
+
+    .info{
+        margin-left: 20%;
     }
 }
 
+
+@media (max-width: 320px ){
+    /* index */
+    /* nosotros */
+    /* trabajos */
+    /* maquinas */
+    /* ubicacion */
+}
 
