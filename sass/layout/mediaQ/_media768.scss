@@ -1,0 +1,67 @@
+/* ------ media 768px ---------------------------------------------- */
+
+
+
+@media (max-width: 768px){
+
+    /*index*/
+
+    .menu-hamburguesa{
+        margin-left: 15%;
+    }
+    .Logo{
+        width: 28%;
+        margin-top: 2%;
+    }
+    .img-logo{
+        width: 50%;
+    }
+
+    .nav{
+        font-size: 150%;
+    }
+
+    .nav > li{
+        margin-top: 13px;
+    }
+    
+    .titulo{
+        font-size: 200%;
+    }
+    .Subtitulo{
+        font-size: 150%;
+    }
+
+    /* nosotros */
+
+    .div-nosotros{
+        width: 70%;
+        height: 20%;
+    }
+    .img-padre{
+        width: 30%;
+        height: 40%;
+    }
+
+    .texto-padre{
+        width: 70%;
+        margin: 10%;
+    }
+
+    .img-hijo{
+        width: 30%;
+        height: 40%;
+    }
+
+    .texto-hijo{
+        width: 40%;
+        margin: 7%;
+    }
+
+    /* footer */
+
+    .info{
+        margin-left: 20%;
+    }
+}
+

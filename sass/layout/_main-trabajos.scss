@@ -1,0 +1,38 @@
+/* ---Trabajos------------------------------------------------------ */
+
+.main-trabajo{
+    margin-top: 40px;
+}
+
+.line-trabajo{
+    width: 40%;
+    max-width: 1200px;
+    margin: auto;
+    height: 4px;
+    background: #454E57;
+    margin-bottom: 30px;
+}
+.titulo-trabajo{
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+}
+.conteiner-general{
+    display: grid;
+    width: 100%;
+    grid-template-columns:repeat(3, 15%); 
+    grid-template-rows:repeat(2, 47%);
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    column-gap: 120px;
+    row-gap: 50px;
+    margin-bottom: 50px;
+}
+
+
+.foto-t{
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid black;
+}

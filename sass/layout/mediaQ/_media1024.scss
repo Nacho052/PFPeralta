@@ -1,0 +1,106 @@
+/* ------ media 1024px -------------------------------------------- */
+
+
+@media (max-width: 1024px){
+
+    /* index */
+    .principal{
+        display: none;
+    }
+    .menu-hamburguesa{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin-left: 18%;
+    }
+
+    .div-logo{
+        width: 100%;
+    }
+    .img-logo{
+        width: 100%;
+    }
+    .Logo{
+        width: 10%;
+        margin-top: 8px;
+    }
+
+    .titulo{
+        font-size: 250%;
+    }
+    .Subtitulo{
+        font-size: 150%;
+    }
+    
+    .informacion-principal{
+        font-size: 180%;
+    }
+
+    /* nosotros */
+
+    .div-quienes-somos{
+        font-size: 100%;
+    }
+
+    .line-padre{
+        margin-left: 7%;
+    }
+
+    .section-hijo{
+        width: 100%;
+    }
+    
+    .line-hijo{
+        width: 70%;
+        margin-left: 5%;
+    }
+
+    /* trabajos */
+
+    .titulo-trabajo{
+        font-size: 160%;
+    }
+
+    .foto-t{
+        width: 100%;
+    }
+
+    /* maquinas */
+
+    .titulo-maquinas{
+        font-size: 170%;
+    }
+
+    /* ubicacion */
+
+    .ubicacion{
+        font-size: 160%;
+    }
+
+    /* footer */
+
+    .footer-content{
+        margin-right: 0px;
+    }
+
+    .contact-us{
+        width: 50%;
+    }
+
+    .info{
+        font-size: 25px;
+        margin-left: 15%;
+    }
+    .info +p{
+        margin-left: 77px;
+    }
+
+    .social-media{
+        width: 50%;
+        justify-content: center;
+    }
+
+}
+

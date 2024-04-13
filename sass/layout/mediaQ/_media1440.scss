@@ -1,0 +1,25 @@
+/*-------- Media 1440px -------------------------------------------------- */
+
+@media (max-width: 1440px){
+    /* index */
+
+    .Logo{
+        width: 8%;
+        margin-top: 0px;
+    }
+
+    /* footer */
+
+    .footer-content{
+        margin-right:12%;
+    }
+
+    .info{
+        margin-left: 30%;
+    }
+
+    .info +p{
+        margin-left: 30%;
+    }
+    
+}

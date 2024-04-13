@@ -1,0 +1,82 @@
+/*---Index ------------------------------------*/
+
+.contenedor-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto-imagen{
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 60px;
+    margin-bottom: 15px; 
+}
+.Subtitulo{
+    font-weight: 300;
+    font-size: 25px;
+}
+.imagen-principal{
+    border-radius: 10px;
+    width: 100%;
+    height: 90%;
+    border-radius: 0%;
+}
+.line-service{
+    width: 40%;
+    max-width: 1200px;
+    margin: 30px auto;
+    height: 4px;
+    background: #454E57;
+    margin-bottom: 30px;
+}
+.informacion-principal{
+    font-size: 35px;
+    text-align: center;
+}
+.contender-div{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.servicios{
+    margin: 30px;
+
+}
+.div-G{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    margin: 30px;
+    border-radius: 5%;
+    padding: 15px;
+}
+.titulo-g{
+    font-size: 20px;
+    color: #911901;
+}
+.reparación{
+    background-color: #6F6969;
+
+}
+
+.fabricación{
+    background-color: #6F6969;
+}
+
+.mecanizados-cnc{
+    background-color: #6F6969;
+}
+.texto-s{
+    color: white;
+    font-size:20px;
+    padding: 25px;
+}
+
+.menu-hamburguesa{
+    display: none;
+}

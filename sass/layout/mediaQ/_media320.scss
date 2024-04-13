@@ -1,0 +1,133 @@
+/* ------ media 320px ---------------------------------------------- */
+
+
+
+@media (max-width: 320px ){
+    /* index */
+
+    .menu-hamburguesa{
+        width: 20%;
+        margin-left: 70%;
+    }
+
+    .Logo{
+        width: 60%;
+        margin-top: 12px;
+    }
+
+    .titulo{
+        font-size: 150%;
+    }
+    .Subtitulo{
+        font-size: 100%;
+    }
+
+    .line-service{
+        width: 60%;
+    }
+
+    .informacion-principal{
+        font-size: 160%;
+    }
+    .div-G{
+        margin: 3px;
+        margin-top: 30px;
+        height: 100%;
+    }
+
+    .contender-div{
+        width: 100%;
+    }
+
+    .reparación{
+        width: 100%;
+    }
+    .texto-s{
+        font-size: 15px;
+    }
+
+
+    /* nosotros */
+
+    .section-padre{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .img-padre{
+        width: 55%;
+        margin-right: 10%;
+    }
+    .texto-padre{
+        text-align: center;
+    }
+
+    .line-padre{
+        width: 80%;
+        margin-left: 23px;
+    }
+
+    .section-hijo{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .img-hijo{
+        width: 55%;
+        margin-right: 10%;
+    }
+    .texto-hijo{
+        width: 50%;
+        text-align: center;
+    }
+
+    .line-hijo{
+        width: 80%;
+        margin-left: 23px;
+    }
+
+    /* trabajos */
+
+    .conteiner-general{
+        grid-template-columns: repeat(1, 15%);
+        grid-template-rows: none;
+    }
+    /* maquinas */
+
+    .titulo-maquinas{
+        font-size: 20px;
+    }
+
+    .conteiner-maquinas{
+        margin-top: 30px;
+        grid-template-columns: repeat(1, 315px);
+        grid-template-rows: none;
+
+    }
+
+    .maquinas{
+        width: 200px;
+    }
+    /* ubicacion */
+    /* Footer */
+
+    .info{
+        font-size: 25px;
+    }
+    
+    .info +p{
+        font-size: 12px ;
+        margin-left: 18px;
+        margin-bottom: 0%;
+    }
+
+    .social-media{
+        width: 30%;
+        flex-direction: column;
+        gap: 8px;
+    }
+}
