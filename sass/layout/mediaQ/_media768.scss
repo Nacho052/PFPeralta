@@ -9,13 +9,17 @@
     .menu-hamburguesa{
         margin-left: 15%;
     }
-    .Logo{
-        width: 28%;
-        margin-top: 2%;
+    .section-nav{
+        .img-logo{
+            width: 50%;
+    
+            .Logo{
+                width: 25% ;
+                margin-top: 2% ;
+            }
+        }
     }
-    .img-logo{
-        width: 50%;
-    }
+    
 
     .nav{
         font-size: 150%;
@@ -64,4 +68,3 @@
         margin-left: 20%;
     }
 }
-

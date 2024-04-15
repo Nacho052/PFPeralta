@@ -4,28 +4,36 @@
 @media (max-width: 1024px){
 
     /* index */
+
     .principal{
         display: none;
     }
-    .menu-hamburguesa{
-        width: 80%;
-        height: 100%;
-        display: flex;
-        justify-content: right;
-        align-items: center;
-        margin-left: 18%;
+    .section-nav{
+        .menu-hamburguesa{
+            width: 80%;
+            height: 100%;
+            display: flex ;
+            justify-content: right;
+            align-items: center;
+            margin-left: 18%;
+        }
     }
 
     .div-logo{
         width: 100%;
     }
-    .img-logo{
-        width: 100%;
+    .section-nav{
+        .img-logo{
+            width: 100%;
+    
+            .Logo{
+                width: 10% ;
+                margin-top: 8px;
+            }
+        }
     }
-    .Logo{
-        width: 10%;
-        margin-top: 8px;
-    }
+    
+    
 
     .titulo{
         font-size: 250%;
@@ -58,19 +66,26 @@
     }
 
     /* trabajos */
-
-    .titulo-trabajo{
-        font-size: 160%;
+    .main-trabajo{
+        
+        .titulo-trabajo{
+            font-size: 160%;
+        }
+        .conteiner-general{
+            .foto-t{
+                width: 100% ;
+            }
+        }
     }
 
-    .foto-t{
-        width: 100%;
-    }
+    
+
+    
 
     /* maquinas */
 
     .titulo-maquinas{
-        font-size: 170%;
+        font-size: 170% ;
     }
 
     /* ubicacion */
@@ -83,24 +98,26 @@
 
     .footer-content{
         margin-right: 0px;
-    }
 
-    .contact-us{
-        width: 50%;
-    }
+        .contact-us{
+            width: 50%;
+    
+            .info{
+                font-size: 25px;
+                margin-left: 15%;
+        
+                p{
+                    margin-left: 77px;
+                }
+            }
+        }
 
-    .info{
-        font-size: 25px;
-        margin-left: 15%;
+        .social-media{
+            width: 50%;
+            justify-content: center;
+        }
     }
-    .info +p{
-        margin-left: 77px;
-    }
-
-    .social-media{
-        width: 50%;
-        justify-content: center;
-    }
+    
 
 }
 

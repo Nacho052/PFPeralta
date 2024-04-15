@@ -1,11 +1,21 @@
+@import "./utilities/mixins";
+@import "./utilities/maps";
+@import "./utilities/variables";
+
 @import "./base/resert";
+
+
 @import "./layout/header";
 @import "./layout/main-index";
 @import "./layout/main-nosotros";
 @import "./layout/main-trabajos";
 @import "./layout/main-maquinas";
 @import "./layout/main-ubicacion";
-@import "./layout/mediaQ/media1024"; 
+@import "./layout/footer";
 @import "./layout/mediaQ/media1440"; 
+@import "./layout/mediaQ/media1024"; 
 @import "./layout/mediaQ/media768"; 
-@import "./layout/mediaQ/media320"; 
+@import "./layout/mediaQ/media320";
+
+
+@import "./components/boostrap";

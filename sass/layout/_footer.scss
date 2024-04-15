@@ -3,54 +3,57 @@
 footer{
     background: #454E57;
     padding-bottom: 0.1px;   
-}
-.footer-content{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    margin-right: 21%;
-}
-.contact-us{
-    width: 45%;
-    color: white;
-}
-.info{
-    font-weight: 500;
-    font-size: 35px;
-    margin-left: 55%;
-}
-.info+p{
-    font-weight: 500;
-    margin-left: 55%;
-}
-.social-media{
-    width: 50%;
-    display: flex;
-    justify-content: flex-end;   
-}
 
-.social-media-icon{
-    display: inline-block;
-    margin-left: 20px;
-    width: 60px;
-    height: 60px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    text-align: center;
-    color: white;
-}
+    .footer-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        margin-right: 21%;
 
-.social-media-icon:hover{
-    background: white;
-    color:#454E57;
-}
+        .contact-us{
+            width: 45%;
+            color: map-get($colores, blanco );
 
-.social-media-icon i{
-    font-size: 30px;
-    line-height: 60px;
+            .info{
+                font-weight: 500;
+                font-size: 35px;
+                margin-left: 55%;
+            }
+            p{
+                font-weight: 500;
+                margin-left: 55%;
+            }
+        }
+        .social-media{
+            width: 50%;
+            display: flex;
+            justify-content: flex-end;   
+
+            .social-media-icon{
+                display: inline-block;
+                margin-left: 20px;
+                width: 60px;
+                height: 60px;
+                border: 1px solid #fff;
+                border-radius: 50%;
+                text-align: center;
+                color: map-get($colores, blanco );
+
+                & :hover{
+                    background: map-get($colores, blanco );
+                    color:#454E57;
+                }
+
+                i{
+                    font-size: 30px;
+                    line-height: 60px;
+                }
+            }    
+        }
+    }
 }
 
 .line{
@@ -58,6 +61,6 @@ footer{
     max-width: 1200px;
     margin: 0 auto ;
     height: 3px;
-    background: white;
+    background: map-get($colores, blanco );
     margin-bottom: 30px;
 }

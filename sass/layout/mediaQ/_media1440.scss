@@ -2,24 +2,26 @@
 
 @media (max-width: 1440px){
     /* index */
-
-    .Logo{
-        width: 8%;
-        margin-top: 0px;
+    .section-nav{
+        .img-logo{
+            .Logo{
+                width: 8%;
+                margin-top: 0px;
+            }
+        }
     }
-
+    
     /* footer */
 
     .footer-content{
         margin-right:12%;
-    }
-
-    .info{
-        margin-left: 30%;
-    }
-
-    .info +p{
-        margin-left: 30%;
-    }
+        
+        .info{
+            margin-left: 30%;
     
+            p{
+                margin-left: 30%;
+            }
+        }
+    } 
 }
