@@ -602,40 +602,40 @@ footer .footer-content .social-media .social-media-icon i {
     font-size: 15px;
   }
   /* nosotros */
-  .section-padre {
+  .main-nosotros .section-padre {
     width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0;
   }
-  .img-padre {
+  .main-nosotros .section-padre .img-padre {
     width: 55%;
     margin-right: 10%;
   }
-  .texto-padre {
+  .main-nosotros .section-padre .texto-padre {
     text-align: center;
   }
-  .line-padre {
+  .main-nosotros .section-padre .texto-padre .line-padre {
     width: 80%;
     margin-left: 23px;
   }
-  .section-hijo {
+  .main-nosotros .section-hijo {
     width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0;
   }
-  .img-hijo {
+  .main-nosotros .section-hijo .img-hijo {
     width: 55%;
     margin-right: 10%;
   }
-  .texto-hijo {
+  .main-nosotros .section-hijo .texto-hijo {
     width: 50%;
     text-align: center;
   }
-  .line-hijo {
+  .main-nosotros .section-hijo .texto-hijo .line-hijo {
     width: 80%;
     margin-left: 23px;
   }
@@ -645,15 +645,15 @@ footer .footer-content .social-media .social-media-icon i {
     grid-template-rows: none;
   }
   /* maquinas */
-  .titulo-maquinas {
+  .main-maquinas .titulo-maquinas {
     font-size: 20px;
   }
-  .conteiner-maquinas {
+  .main-maquinas .conteiner-maquinas {
     margin-top: 30px;
     grid-template-columns: repeat(1, 315px);
     grid-template-rows: none;
   }
-  .maquinas {
+  .main-maquinas .conteiner-maquinas .maquinas {
     width: 200px;
   }
   /* ubicacion */

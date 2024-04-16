@@ -61,46 +61,61 @@
 
     /* nosotros */
 
-    .section-padre{
-        width: 100%;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-    }
-    .img-padre{
-        width: 55%;
-        margin-right: 10%;
-    }
-    .texto-padre{
-        text-align: center;
-    }
+    .main-nosotros{
+        .section-padre{
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+    
+            .img-padre{
+                width: 55%;
+                margin-right: 10%;
+            }
+            .texto-padre{
+                text-align: center;
+    
+                .line-padre{
+                    width: 80%;
+                    margin-left: 23px;
+                }
+            }
+        }
 
-    .line-padre{
-        width: 80%;
-        margin-left: 23px;
+        .section-hijo{
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+    
+            .img-hijo{
+                width: 55%;
+                margin-right: 10%;
+            }
+            .texto-hijo{
+                width: 50%;
+                text-align: center;
+    
+                .line-hijo{
+                    width: 80%;
+                    margin-left: 23px;
+                }
+            }
+        }
     }
+    
+    
+    
 
-    .section-hijo{
-        width: 100%;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-    }
-    .img-hijo{
-        width: 55%;
-        margin-right: 10%;
-    }
-    .texto-hijo{
-        width: 50%;
-        text-align: center;
-    }
+    
 
-    .line-hijo{
-        width: 80%;
-        margin-left: 23px;
-    }
+    
+    
+    
+
+    
 
     /* trabajos */
     .main-trabajo{
@@ -112,20 +127,25 @@
     
     /* maquinas */
 
-    .titulo-maquinas{
-        font-size: 20px;
+    .main-maquinas{
+        .titulo-maquinas{
+            font-size: 20px;
+        }
+        .conteiner-maquinas{
+            margin-top: 30px;
+            grid-template-columns: repeat(1, 315px);
+            grid-template-rows: none;
+            
+            .maquinas{
+                width: 200px;
+            }
+        }
     }
+    
 
-    .conteiner-maquinas{
-        margin-top: 30px;
-        grid-template-columns: repeat(1, 315px);
-        grid-template-rows: none;
+    
 
-    }
-
-    .maquinas{
-        width: 200px;
-    }
+    
     /* ubicacion */
     /* Footer */
 
