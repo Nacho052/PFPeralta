@@ -37,26 +37,35 @@
     .line-service{
         width: 60%;
     }
+    .servicios{
+        .informacion-principal{
+            font-size: 160%;
+        }
+        .contender-div{
+            width: 100%;
 
-    .informacion-principal{
-        font-size: 160%;
-    }
-    .div-G{
-        margin: 3px;
-        margin-top: 30px;
-        height: 100%;
+            .div-G{
+                margin: 3px;
+                margin-top: 30px;
+                height: 100%;
+
+                .texto-s{
+                    font-size: 15px;
+                }
+            }
+        }
+        
     }
 
-    .contender-div{
-        width: 100%;
-    }
+    
+    
+
+    
 
     .reparación{
         width: 100%;
     }
-    .texto-s{
-        font-size: 15px;
-    }
+    
 
 
     /* nosotros */

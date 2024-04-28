@@ -23,45 +23,49 @@
 
     .nav{
         font-size: 150%;
+        li{
+            margin-top: 13px;
+        }
     }
 
-    .nav > li{
-        margin-top: 13px;
+    .contenedor-main{
+        .titulo{
+            font-size: 200%;
+        }
+        .Subtitulo{
+            font-size: 150%;
+        }
     }
     
-    .titulo{
-        font-size: 200%;
-    }
-    .Subtitulo{
-        font-size: 150%;
-    }
 
     /* nosotros */
-
     .div-nosotros{
         width: 70%;
         height: 20%;
     }
-    .img-padre{
-        width: 30%;
-        height: 40%;
+    .main-nosotros{
+        .section-padre{
+            .img-padre{
+                width: 30%;
+                height: 40%;
+            }
+            .texto-padre{
+                width: 70%;
+                margin: 10%;
+            }
+        }
+        .section-hijo{
+            .img-hijo{
+                width: 30%;
+                height: 40%;
+            }
+            .texto-hijo{
+                width: 40%;
+                margin: 7%;
+            }
+        }
     }
-
-    .texto-padre{
-        width: 70%;
-        margin: 10%;
-    }
-
-    .img-hijo{
-        width: 30%;
-        height: 40%;
-    }
-
-    .texto-hijo{
-        width: 40%;
-        margin: 7%;
-    }
-
+    
     /* footer */
 
     .info{

@@ -49,6 +49,7 @@ body {
 }
 .section-nav .menu-navegacion .nav :hover {
   color: rgba(255, 255, 255, 0.4235294118);
+  transition: 300ms ease;
 }
 
 /*---Index ------------------------------------*/
@@ -171,7 +172,7 @@ body {
 }
 .main-nosotros .section-padre {
   display: flex;
-  margin: 40px 0 0 50px;
+  margin: 60px 0 40px 55px;
 }
 .main-nosotros .section-padre .img-padre {
   width: 300px;
@@ -473,7 +474,7 @@ footer .footer-content .social-media .social-media-icon i {
     margin-left: 7%;
   }
   .section-hijo {
-    width: 100%;
+    width: 90%;
   }
   .line-hijo {
     width: 70%;
@@ -529,13 +530,13 @@ footer .footer-content .social-media .social-media-icon i {
   .nav {
     font-size: 150%;
   }
-  .nav > li {
+  .nav li {
     margin-top: 13px;
   }
-  .titulo {
+  .contenedor-main .titulo {
     font-size: 200%;
   }
-  .Subtitulo {
+  .contenedor-main .Subtitulo {
     font-size: 150%;
   }
   /* nosotros */
@@ -543,19 +544,19 @@ footer .footer-content .social-media .social-media-icon i {
     width: 70%;
     height: 20%;
   }
-  .img-padre {
+  .main-nosotros .section-padre .img-padre {
     width: 30%;
     height: 40%;
   }
-  .texto-padre {
+  .main-nosotros .section-padre .texto-padre {
     width: 70%;
     margin: 10%;
   }
-  .img-hijo {
+  .main-nosotros .section-hijo .img-hijo {
     width: 30%;
     height: 40%;
   }
-  .texto-hijo {
+  .main-nosotros .section-hijo .texto-hijo {
     width: 40%;
     margin: 7%;
   }
@@ -584,22 +585,22 @@ footer .footer-content .social-media .social-media-icon i {
   .line-service {
     width: 60%;
   }
-  .informacion-principal {
+  .servicios .informacion-principal {
     font-size: 160%;
   }
-  .div-G {
+  .servicios .contender-div {
+    width: 100%;
+  }
+  .servicios .contender-div .div-G {
     margin: 3px;
     margin-top: 30px;
     height: 100%;
   }
-  .contender-div {
-    width: 100%;
+  .servicios .contender-div .div-G .texto-s {
+    font-size: 15px;
   }
   .reparación {
     width: 100%;
-  }
-  .texto-s {
-    font-size: 15px;
   }
   /* nosotros */
   .main-nosotros .section-padre {
